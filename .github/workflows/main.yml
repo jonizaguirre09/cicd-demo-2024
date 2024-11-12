@@ -14,4 +14,4 @@ jobs:
       - name: Crear imagen docker
         run: docker build -d jonizaguirre09/holamundo .
       - name: Probar contenedor
-        run: docker run ulopeznovoa/holamundo
+        run: docker run jonizaguirre09/holamundo
