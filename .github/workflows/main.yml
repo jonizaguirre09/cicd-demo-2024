@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Mostrar mensaje
         run: echo "Hola GH Actions"
+      - name: Bajar codigo
+        uses: actions/chechout@v4
+      - name: Probar codigo
+        run: python3 main.py
